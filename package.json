@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "nyc mocha 'test/*.js' && nyc merge non-existent-directory/mocha.json"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
